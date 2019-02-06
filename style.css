@@ -1,0 +1,96 @@
+body{
+  background-color: #6F6F71
+}
+h1 {
+  color: #111616
+}
+
+h2 {
+  color: #3EAF5A
+}
+
+h3 {
+  color: #3EAF5A
+}
+
+i{
+  color: #3EAF5A
+}
+
+a {
+  color: #3EAF5A
+  : #412832
+}
+
+p {
+  color: #111616
+}
+
+/* This automatically sets left/right margins */
+
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+      background: whitesmoke;
+      padding: 40px;
+      margin: 50px auto;
+      box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.53);
+      border-radius: 3px;
+}
+
+#button {
+  background-color: #3EAF5A;
+  padding: 8;
+  border-radius: 3px;
+}
+
+.images {
+  border-radius: 50px;
+}
+
+.text-format {
+ padding-left: 20px;
+}
+
+.img-cirlce {
+  border-radius: 20px;
+  width: 100px;
+
+}
+.text-center {
+  text-align: center;
+}
+
+
+ul.list-in-row > li {
+ display: inline-block;
+ padding: 0px 20px;
+}
+
+ul.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
