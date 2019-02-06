@@ -1,8 +1,8 @@
-body{
-  background: url("../images/sunset.jpg");
-  -webkit-background-size: cover;
+body {
+  background: url("../images/sunset.jpg") no-repeat center fixed ghostwhite;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover;*/
   background-size: cover;
 }
 
