@@ -1,18 +1,22 @@
 body {
-  background: url("images/sunset.jpg") no-repeat center fixed ghostwhite;
-  /*-webkit-background-size: cover;
+/*  background: url("images/sunset.jpg") no-repeat center fixed ghostwhite;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;*/
-  background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  margin: 0px;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 h1 {
   color: #111616;
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 h2 {
   color: #3EAF5A;
-  font-family: Courier, monospace;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 30px;
 }
 
@@ -20,7 +24,7 @@ h3 {
   color: #3EAF5A;
   font-size: 25px;
   font-weight: 35;
-  font-family: Courier, monospace;
+  font-family: "Helvetica Neue", sans-serif;
 
 }
 
@@ -39,15 +43,15 @@ a {
   color: #3EAF5A;
 }
 
-a:hover {
+/*a:hover {
 background-color: #8e3411;
-}
+}*/
 
 p {
   color: #111616;
   font-size: 20px;
   font-weight: 40;
-  font-family: Courier, monospace;
+  font-family: "Helvetica Neue", sans-serif;
 
 
 }
@@ -102,7 +106,7 @@ p {
 
 #name-style {
   font-size: 40px;
-  font-family: Courier, monospace;
+  font-family: "Helvetica Neue", sans-serif;
   padding-top: 20px;
 }
 .button-style {
@@ -120,10 +124,10 @@ p {
     text-decoration: none;
 }
 
-.button-style:hover {
+/*.button-style:hover {
   background-color: #8e3411;
 
-}
+}*/
 .intro-style {
   padding-bottom: 22px;
 }
@@ -175,6 +179,59 @@ ul.list-in-row > li {
 h2.interests {
   padding-top: 20px;
 }
+
+/*javascript css*/
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 250px 0;
+  height: 40vh;
+  max-width: 100%;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 48px;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.banner p {
+  font-size: 20px;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+  text-align: center;
+}
+
+.menu-contact {
+    position: absolute;
+    top: 60px;
+    right: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: -0.3px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0;
+    color: white;
+  }
 
 
 
