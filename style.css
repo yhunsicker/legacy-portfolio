@@ -8,28 +8,31 @@ body {
   font-family: "Helvetica Neue", sans-serif;
 }
 
+#text{
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
 h1 {
   color: white;
   text-align: center;
-  font-family: "Helvetica Neue", sans-serif;
 }
 
 h2 {
-  color: #3EAF5A;
-  font-family: "Helvetica Neue", sans-serif;
+  color: #8e3411;
   font-size: 30px;
 }
 
 h3 {
-  color: #3EAF5A;
+  color: #8e3411;
   font-size: 25px;
-  font-weight: 35;
-  font-family: "Helvetica Neue", sans-serif;
-
+  font-weight: 35px;
 }
 
 a {
-  color: #3EAF5A;
+  color: #8e3411;
 }
 
 i {
@@ -44,11 +47,12 @@ p {
   color: #111616;
   font-size: 20px;
   font-weight: 40;
-  font-family: "Helvetica Neue", sans-serif;
-
 
 }
 
+.menu-contact:hover {
+  color: lightgray;
+}
 /* This automatically sets left/right margins */
 
 .button {
@@ -61,9 +65,10 @@ p {
 }
 
 .container {
-  width: 900px;   /* This sets the width */
+  width: 900px;
   margin: 0 auto;
 }
+
 
 @media (max-width: 1000px) {
   /* For a screen < 960px, this CSS will be read */
@@ -84,8 +89,29 @@ p {
   }
 }
 
-/*custom and design*/
+/*projects*/
+.workwrapper {
+    background-color: var(--grey-bg);
+    padding-bottom: 70px;
+    padding-top: 20px;
+    margin: 0;
+  }
+
 .card {
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgba(30,45,62,.09);
+    transition: box-shadow .2s;
+    height: 100%;
+}
+
+
+
+
+
+
+/*custom and design*/
+/*.card {
     background: lightgray;
     padding: 100px;
     padding-top: 20px;
@@ -97,8 +123,8 @@ p {
   font-size: 40px;
   font-family: "Helvetica Neue", sans-serif;
   padding-top: 20px;
-}
-.button-style {
+}*/
+/*.button-style {
     background-color: #3EAF5A;
     color: #111616;
     padding: 10px;
@@ -111,13 +137,13 @@ p {
     margin-left: 4px;
     margin-right: 30px;
     text-decoration: none;
-}
+}*/
 
 /*.button-style:hover {
   background-color: #8e3411;
 
 }*/
-.intro-style {
+/*.intro-style {
   padding-bottom: 22px;
 }
 
@@ -127,14 +153,14 @@ p {
   border-width: thin;
   border-style: solid;
   margin-bottom: 10;
-}
+}*/
 
-#profile {
+/*#profile {
   border-style: solid;
 }
 .text-format {
  padding-left: 20px;
-}
+}*/
 /*
 .img-circle {
   border-radius: 50px;
@@ -142,7 +168,7 @@ p {
   border-width: thin;
 }*/
 
-.text-center {
+/*.text-center {
   text-align: center;
   font-size: 40px;
 }
@@ -151,23 +177,23 @@ ul.list-in-row > li {
  display: inline-block;
  align-content: center;
  padding-right: 20px;
-}
+}*/
 
-.contact i {
+/*.contact i {
   font-size: 30px;
-}
+}*/
 
-.contact i:hover {
+/*.contact i:hover {
   color: #8e3411;
-}
+}*/
 
 /*#github:hover {
  color: #8e3411;
 }*/
-
+/*
 h2.interests {
   padding-top: 20px;
-}
+}*/
 
 /*Banner & Navbar*/
 .banner {
@@ -274,6 +300,34 @@ h2.interests {
   padding: 16px;
 }
 
+#open-source {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #e8e8e8 ;
+
+}
+
+.project img {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-left: 200px;
+    }
+
+#open-source h2 {
+   margin-bottom: 30px;
+  margin-left: 150px;
+}
+
+.project-info {
+  margin-left: 200px;
+}
+
+
+
+
+
+
+
 /*footer*/
 
 .footer-wrapper {
@@ -357,5 +411,7 @@ h2.interests {
 .interests-picture {
   display: flex;
 }
+
+
 
 

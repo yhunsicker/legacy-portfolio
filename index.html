@@ -15,14 +15,34 @@
 
   <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(images/sunset.jpg);">
     <div class="container">
-      <h1>Hi there! I'm Yu-Li</h1>
-     <!-- <img src="./images/Me.jpg" alt="" class="img-circle" width="250" height="250" id="profile"><span class="cursor" data-owner="main"></span>
-     </h1> -->
-     <p>A child protection specialist turned front-end developer,<br>
+      <div id="text">
+
+      </div>
+
+
+      <script type="text/javascript">
+        var i=0, text;
+        text = "Hi there! I'm Yu-Li."
+
+        function typing() {
+          if(i<text.length){
+            document.getElementById("text").innerHTML += text.charAt(i); i++;
+            setTimeout(typing,50);
+          }
+        }
+
+        typing();
+      </script>
+
+     <p>I am a child protection specialist turned front-end developer,<br>
      based in Amsterdam</p>
     <!--  <a href="" target="_blank" class="button-style" ="button">Resume</a></li> -->
    </div>
   </div>
+
+  <!-- Javascript for Greeting -->
+
+
 
   <div class="content">
     <h1 class="logo">
@@ -44,7 +64,67 @@
 </div>
 </div>
 
-<div id="interests" class="interests-wrapper">
+
+
+
+<div id="open-source">
+      <h2 class="text-center">What I Built</h2>
+
+      <div class="project">
+            <a href="https://rails-bookable.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <img src="images/Bookable.png" width="25%" alt=" screenshot">
+            </a>
+          </div>
+
+            <div class="project-info">
+                 <p><b>Bookable</b>: Free Book Sharing Site</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="project">
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+            <a href="https://webdash.xyz" target="_blank" rel="noopener noreferrer">
+              <img src="https://res.cloudinary.com/dbfn5lnvx/image/upload/f_auto,fl_progressive,q_auto:good/v1540372019/jadjoubran.io/webdash.jpg" width="100%" alt="webdash screenshot">
+            </a>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+            <div class="project-info">
+              <a href="https://webdash.xyz" target="_blank" rel="noopener noreferrer">
+                <h4>Webdash</h4>
+              </a>
+              <p>Webdash helps you visualize, monitor &amp; manage your web project using community-driven plugins.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2"></div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-2">
+            <a href="https://codetogo.io" target="_blank" rel="noopener noreferrer">
+              <img src="https://res.cloudinary.com/dbfn5lnvx/image/upload/f_auto,fl_progressive,q_auto:good/v1540372019/jadjoubran.io/codetogo.jpg" width="100%" alt="Code to go screenshot">
+            </a>
+          </div>
+          <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+            <div class="project-info">
+              <a href="https://codetogo.io" target="_blank" rel="noopener noreferrer">
+                <h4>Code To Go</h4>
+              </a>
+              <p>Code To Go helps you find up to date snippets for common JavaScript use cases.</p>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+ -->
+
+<!-- <div id="interests" class="interests-wrapper">
 <h2 class="text-center">My Interests</h2>
 
 
@@ -78,7 +158,7 @@
 </p>
 </div>
 </div>
-</div>
+</div> -->
 
 
 
