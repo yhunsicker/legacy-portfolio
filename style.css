@@ -72,7 +72,7 @@ p {
   background-size: cover;
   background-position: center;
   padding: 250px 0;
-  height: 46vh;
+  height: 50vh;
   max-width: 100%;
 }
 
@@ -82,7 +82,7 @@ p {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 48px;
   font-weight: bold;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   z-index: 20;
 }
@@ -102,7 +102,7 @@ p {
 
 .menu-contact {
   position: absolute;
-  top: 60px;
+  top: 70px;
   right: 80px;
   text-transform: uppercase;
   text-decoration: none;
@@ -114,7 +114,7 @@ p {
 
 .logo {
   position: absolute;
-  top: 60px;
+  top: 70px;
   left: 80px;
   font-size: 15px;
   text-transform: uppercase;
