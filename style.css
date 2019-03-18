@@ -69,6 +69,7 @@ p {
 
 /*Banner & Navbar*/
 .banner {
+  background-image: url(images/sunset.jpg);
   background-size: cover;
   background-position: center;
   padding: 250px 0;
