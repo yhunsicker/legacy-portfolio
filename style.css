@@ -109,8 +109,6 @@ p {
 }
 
 
-
-
 /*Banner & Navbar*/
 .banner {
   background-color: #74E4D6;
@@ -190,6 +188,7 @@ p {
   font-size: 20px;
   line-height: 30px;
   text-align: center;
+  margin-top: 15px;
 }
 
 .arrow {
