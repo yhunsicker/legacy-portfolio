@@ -118,7 +118,7 @@ p {
   background-position: center;
   padding: 250px;
   background-size: cover;
-  height: 40vh;
+  height: 35vh;
 }
 
 .landing-page h1 {
@@ -275,7 +275,6 @@ p {
   opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
-  /* margin-right: 400px; */
   margin-right: 100px;
   color: #202528;
 }
@@ -306,15 +305,15 @@ p {
 }
 
 .project img {
-  box-shadow: 0px 6px 8px #9b9999;
+  box-shadow: 0px 5px 7px #9b9999;
   border-radius: 3px;
-  transition: all .6s;
+  transition: all .9s;
   margin: 20px;
 }
 
 
 .project img:hover {
-  transform: scale(1.1);
+  transform: scale(1.08);
 }
 
 #open-source h2 {
