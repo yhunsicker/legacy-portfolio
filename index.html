@@ -8,105 +8,83 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="shortcut icon" type="image/png" sizes="96x96" href="images/Logo.png">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans|Karla" rel="stylesheet">
+  <script src="main.js" async></script>
 </head>
 
 <!-- Banner&HomePage -->
 <body>
 
-  <div class="banner">
-    <div class="container">
-      <div id="text">
-
+  <div id="landing-page">
+    <div class="banner">
+      <div class="content">
+        <div class="menu">
+          <a class="contact" href="mailto:yhunsicker.gmail.com" target="blank"
+          rel="noopener noreferrer">Contact</a>
+        </div>
+        <div id="text"></div>
+        <div class="mdc-layout-grid">
+          <div class="mdc-layout-grid_cell mdc-layout-grid_cell--span-3"></div>
+          <div class="mdc-layout-grid_cell mdc-layout-grid_cell--6 mdc-layout-grid_cell--span-12">
+            <div class="subtitle">
+              I am a junior front-end developer.
+            </div>
+          </div>
+        </div>
+        <div class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
-
-
-      <script type="text/javascript">
-        var i=0, text;
-        text = "{ Hi there! }"
-
-        function typing() {
-          if(i<text.length){
-            document.getElementById("text").innerHTML += text.charAt(i); i++;
-            setTimeout(typing,150);
-          }
-        }
-
-        typing();
-      </script>
-
-     <p>I am a child protection specialist turned front-end developer,<br>
-     based in Amsterdam</p>
-    <!--  <a href="" target="_blank" class="button-style" ="button">Resume</a></li> -->
-   </div>
+    </div>
   </div>
 
-  <!-- Javascript for Greeting -->
 
-
-
-  <div class="content">
-    <h1 class="logo">
-      <b>Yu-Li Hunsicker</b>
-    </h1>
-  </div>
-
-  <div class="menu">
-    <a class="menu-contact" href="mailto:yhunsicker.gmail.com" target="blank"
-    rel="noopener noreferrer">Contact</a>
-  </div>
-
-  <section class="about-me">
   <div class="about">
     <img src="images/Me.jpg" alt="Me" width="200" height="200">
-  <div class="about-infos">
-    <h2>About Me</h2>
-    <p><p>My personal experience compelled me to pursue the study of human rights (with a focus in children and women's rights). Having worked as a Child Protection Specialist, I became interested in finding alternative avenues to support, advocate, and provide knowledge to  marginalized and at-risk groups. With the increase of global connectivity and crises, technology can have a pivotal role in providing relief, aid, and protection. <strong>Most importantly, technology has the power to get people to care about one another </strong>. <br>  <p>My budding interest in technology for social change led me to join <a href="https://www.lewagon.com/">Le Wagon</a> and becoming a full-stack web developer.</p>
+    <div class="bio">
+      <p> Having worked as a Child Protection Specialist, I became interested in finding alternative avenues to support, advocate, and provide knowledge to  marginalized and at-risk groups. With the increase of global connectivity and crises, technology can have a pivotal role in providing relief, aid, and protection. <strong>Most importantly, technology has the power to get people to care about one another </strong>. <br>  <p>My budding interest in technology for social impact led me to join <a href="https://www.lewagon.com/">Le Wagon</a> and becoming a full-stack web developer.</p>
+    </div>
   </div>
-</div>
-</section>
-</div>
 
+  <div id="open-source">
+    <h2 class="text-center">My Projects</h2>
 
-<div id="open-source">
-      <h2 class="text-center">My Projects</h2>
+    <div class="project-container">
+      <div class="project">
+        <a href="https://rails-bookable.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+          <img src="images/Bookable.png" width="28%" height="60%" alt="screenshot"></a>
 
-      <div class="project-container">
-        <div class="project">
-            <a href="https://rails-bookable.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-              <img src="images/Bookable.png" width="30%" height="34%" alt="screenshot"></a>
+          <a href="http://www.unclogd.com/" target="_blank" rel="noopener noreferrer">
+            <img src="images/Unclogd.png" width="28%" height="60%" alt="screenshot"></a>
 
-             <a href="http://www.unclogd.com/" target="_blank" rel="noopener noreferrer">
-              <img src="images/Unclogd.png" width="30%" height="34%" alt="screenshot"></a>
+            <a href="https://yhunsicker.github.io/mixmag/" target="_blank" rel="noopener noreferrer">
+              <img src="images/mixmag.png" width="28%" height="60%" alt="screenshot>"></a>
 
             </div>
           </div>
         </div>
 
-<div class="footer-wrapper">
-  <div class="footer-content">
-    <h2>Let's Share</h2>
-    <p>I'm always inspired to learn & share knowledge</p>
-  </div>
-</div>
+        <div class="footer-wrapper">
+          <div class="footer-content">
+            <h2>Let's Share</h2>
+            <p>I'm always inspired to learn & share knowledge</p>
+          </div>
+        </div>
 
-<div class="footer-bottom">
-  <div class="footer-links">
-    <a href="https://github.com/yhunsicker" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="https://www.instagram.com/ashortybroad/pins/" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://www.facebook.com/yuli.hunsicker" target="_blank"><i class="fab fa-facebook"></i></a>
-    <a href="https://www.linkedin.com/in/yu-li-hunsicker/"><i class="fab fa-linkedin"></i></a>
-  </div>
-</div>
-  <div class="footer-copyright">
-    Crafted with <i class="fas fa-heart"></i> by yours truly
-  </div>
-</div>
+        <div class="footer-bottom">
+          <div class="footer-links">
+            <a href="https://github.com/yhunsicker" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/ashortybroad/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/yuli.hunsicker" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/yu-li-hunsicker/"><i class="fab fa-linkedin"></i></a>
+            <div class="footer-copyright">
+              Crafted with <i class="fas fa-heart"></i> by yours truly
+            </div>
+          </div>
+        </div>
 
-
-
-  </body>
+      </body>
 
   </html>
-
-<!-- .centerImg{background: url('../images/succ2.png') no-repeat center fixed ghostwhite;
-background-size: 56%;} -->
