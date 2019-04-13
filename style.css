@@ -97,6 +97,8 @@ p {
   letter-spacing: -0.3px;
   transition: opacity 200ms;
   font-weight: bold;
+  display: none;
+
 }
 
 
@@ -187,6 +189,65 @@ p {
 
 .about {
   background-color: white;
+  overflow: hidden;
+  align-items: center;
+
+}
+
+.about img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  margin-right: 20px;
+  border-width: thin;
+  border-color: black;
+  border-style: solid;
+}
+
+
+.about .bio {
+  padding: 16px;
+  font-size: 18px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+  color: #202528;
+}
+
+#lewagon:hover {
+  opacity: .6;
+}
+
+#cv .fa-file-pdf {
+    color: #74E4D6;
+    font-size: 25px;
+    margin-left: 10px
+}
+
+#cv .fa-file-pdf:hover {
+  opacity: .6;
+}
+
+.images {
+  width: 90vw;
+}
+
+@media only screen and (min-width: 768px) {
+  .images {
+    width: 28%;
+    height: 50%;
+}
+
+.#open-source {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F5F7F9;
+  height: 70vh;
+}
+
+.about {
+  background-color: white;
   min-height: 56vh;
   overflow: hidden;
   align-items: center;
@@ -206,7 +267,6 @@ p {
   border-style: solid;
 }
 
-
 .about .bio {
   padding: 16px;
   font-size: 18px;
@@ -218,20 +278,23 @@ p {
   color: #202528;
 }
 
-#lewagon:hover {
-  opacity: .6;
+.contact {
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #202528;
+  opacity: 0.8;
+  font-size: 15px;
+  letter-spacing: -0.3px;
+  transition: opacity 200ms;
+  font-weight: bold;
+  display: block;
 }
 
-#cv .fa-file-pdf {
-    color: #74E4D6;
-    font-size: 25px;
-    margin-left: 10px
 }
 
-#cv .fa-file-pdf:hover {
-  opacity: .6;
-
-}
 
 .more-info {
     display: flex;
@@ -245,12 +308,7 @@ p {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #F5F7F9;
-  height: 70vh;
-}
-
-.card-container b {
-  font: 24px;
-  margin: 12px 0;
+  height: auto;
 }
 
 .project-container {
@@ -311,7 +369,6 @@ p {
   color: #202528;
   margin-bottom: 15px;
 }
-
 
 .footer-bottom {
   background-color: #202528;
