@@ -46,77 +46,14 @@ p {
 
 
 
-@media (max-width: 840px) {
-  /* For a screen < 960px, this CSS will be read */
-  .mdc-layout-grid {
-   grid-template-columns: repeat(12,minmax(0,1fr));
- }
-
- .mdc-layout-grid__cell--span-3 {
-  width: auto;
-  grid-column-end: span 3;
-}
-
-.mdc-layout-grid__cell {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.mdc-layout-grid__cell--span-6 {
-  width: auto;
-  grid-column-end: span 6;
-}
-
-}
-
-
-@media (max-width: 500px) {
-  .mdc-layout-grid {
-   grid-template-columns: repeat(4,minmax(0,1fr));
-   display: grid;
-   grid-gap: 16px;
-   grid-gap: var(--mdc-layout-grid-gutter,16px);
-   padding: 16px;
-   padding: var(--mdc-layout-grid-margin,16px);
-   box-sizing: border-box;
-   align-items: stretch;
-   margin: 0 auto;
-   flex-flow: row wrap;
- }
-
- .mdc-layout-grid__cell--span-3 {
-  width: auto;
-  grid-column-end: span 3;
-}
-
-.mdc-layout-grid__cell {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.mdc-layout-grid__cell--span-6 {
-  width: auto;
-  grid-column-end: span 6;
-}
-
-}
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
-}
-
-
 /*Banner & Navbar*/
 .banner {
   background-color: #74E4D6;
   /*background-image: url(images/sunset.jpg);*/
   background-position: center;
-  padding: 250px;
   background-size: cover;
-  height: 40vh;
+  height: 100vh;
+  width: 100vw;
 }
 
 .landing-page h1 {
@@ -129,6 +66,10 @@ p {
   text-align: center;
   z-index: 20;
   font-family: PT Serif,serif;
+}
+
+.content {
+  padding-top: 230px;
 }
 
 .banner p {
@@ -352,6 +293,7 @@ p {
   text-align: center;
   height: 200px;
   position: relative;
+  width: 100vw;
 }
 .footer-content {
   padding-left: 20px;
