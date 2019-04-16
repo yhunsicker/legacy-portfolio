@@ -54,6 +54,12 @@ i {
   text-align: center;
 }
 
+ p {
+
+    font-size: 23px;
+    opacity: .7;
+  }
+
 /*Banner & Navbar*/
 .banner {
   background-color: #74E4D6;
