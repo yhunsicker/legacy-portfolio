@@ -414,10 +414,10 @@ i {
 
   .banner p {
     margin-top: 40px;
-    font-size: 34px;
+    font-size: 30px;
     opacity: .7;
     color: #202528;
-    line-height: 60px;
+    line-height: 55px;
     text-align: center;
     z-index: 20;
     font-family: PT Serif,serif;
