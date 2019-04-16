@@ -292,7 +292,9 @@ i {
   }
 
   p {
-    font-size: 20px
+
+    font-size: 23px;
+    opacity: .7;
   }
 
   .mdc-layout-grid__cell--span-2 {
@@ -337,6 +339,14 @@ i {
     padding-left: 5%;
     padding-right: 5%;
 }
+
+#text{
+  color: #202528;
+  text-align: center;
+  font-size: 60px;
+  margin-top: -40px;
+  font-weight: bolder;
+}
 }
 
 
@@ -378,33 +388,33 @@ i {
 
 @media only screen and (min-width: 768px) {
   .contact {
-    position: absolute;
-    top: 50px;
-    right: 50px;
+        position: absolute;
+    top: 65px;
+    right: 80px;
     text-transform: uppercase;
     text-decoration: none;
     color: #202528;
     opacity: 0.8;
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: -0.3px;
     transition: opacity 200ms;
     font-weight: bold;
     display: block;
-  }
+ }
 
   h5 {
     font-size: 25px;
   }
 
   .banner p {
-   margin-top: 80px;
-   font-size: 30px;
-   opacity: .7;
-   color: #202528;
-   line-height: 41px;
-   text-align: center;
-   z-index: 20;
-   font-family: PT Serif,serif;
+    margin-top: 40px;
+    font-size: 34px;
+    opacity: .7;
+    color: #202528;
+    line-height: 60px;
+    text-align: center;
+    z-index: 20;
+    font-family: PT Serif,serif;
  }
 
  #text {
