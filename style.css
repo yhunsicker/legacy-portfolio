@@ -266,7 +266,7 @@ i {
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 40px;
   }
 
   .about .bio {
@@ -312,7 +312,7 @@ i {
 
  .mdc-layout-grid__cell--span-4, .mdc-layout-grid__cell--span-4-desktop.mdc-layout-grid__cell--span-4-desktop {
     width: auto;
-    grid-column-end: span 4;
+    grid-column-end: span 5;
 }
 
   .mdc-layout-grid__cell--span--8 {
