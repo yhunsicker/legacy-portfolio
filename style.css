@@ -41,6 +41,8 @@ h3 {
 
 h5 {
   font-size: 18px;
+  line-height: 40px;
+  opacity: .5;
 }
 
 a {
@@ -240,6 +242,8 @@ i {
 
 .about img {
   border-radius: 50%;
+  width: 280px;
+  height: 280px;
 }
 
 .about-imgWrap {
@@ -254,10 +258,6 @@ i {
   align-items: center;
 }
 
-.about h5 {
-  font-weight: 400;
-  opacity: .7;
-}
 
 @media (max-width: 1200px) {
   .mdc-layout-grid__cell--span-8 {
@@ -302,6 +302,12 @@ i {
     font-size: 23px;
     opacity: .7;
   }
+
+  .about img {
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+}
 
   .mdc-layout-grid__cell--span-2 {
     display: none;
@@ -367,6 +373,7 @@ i {
 .mdc-layout-grid__cell--span-8 {
   width: auto;
 }
+
 }
 
 
