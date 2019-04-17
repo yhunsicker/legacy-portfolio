@@ -43,6 +43,7 @@ h5 {
   font-size: 15px;
   line-height: 40px;
   opacity: .5;
+  font-weight: 300;
 }
 
 a {
@@ -285,9 +286,9 @@ i {
     color: #202528;
   }
 
-  .about h5 {
+  /*.about h5 {
     line-height: 1.7;
-  }
+  }*/
 }
 
 
@@ -416,9 +417,10 @@ i {
  }
 
   h5 {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 40px;
   opacity: .5;
+   font-weight: 300;
 }
   }
 
