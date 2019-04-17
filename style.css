@@ -1,5 +1,3 @@
-
-
 body {
   font-family: PT Serif,serif;
   margin: 0;
@@ -40,8 +38,8 @@ h3 {
 }
 
 h5 {
-  font-size: 15px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 30px;
   opacity: .5;
   font-weight: 300;
 }
@@ -85,11 +83,11 @@ i {
 }
 
 .content {
-  padding-top: 260px;
+    padding-top: 190px;
 }
 
 .banner p {
- margin-top: -10px;
+ margin-top: 10px;
  font-size: 20px;
  opacity: .7;
  color: #202528;
@@ -417,12 +415,11 @@ i {
  }
 
   h5 {
-  font-size: 20px;
+  font-size: 26px;
   line-height: 40px;
   opacity: .5;
    font-weight: 300;
 }
-  }
 
   .banner p {
     margin-top: 40px;
@@ -449,6 +446,25 @@ i {
   margin: -10px;
   animation: animate 2.2s infinite;
 }
+
+.content {
+    padding-top: 280px;
+}
+
+}
+
+/*.banner p {
+    margin-top: 40px;
+    font-size: 30px;
+    opacity: .7;
+    color: #202528;
+    line-height: 40px;
+    text-align: center;
+    z-index: 20;
+    font-family: PT Serif,serif;
+}*/
+
+
 }
 
 .more-info {
@@ -505,13 +521,14 @@ i {
 }
 
 .card p {
-  margin-bottom: 0;
-  color: #202528;
-  font-size: 17px;
-  font-family: PT Serif,serif;
-  opacity:.7;
-  line-height: 28px;
-  letter-spacing: -.3px;
+    margin-bottom: 0;
+    color: #202528;
+    font-size: 20px;
+    font-family: PT Serif,serif;
+    opacity: .7;
+    line-height: 30px;
+    letter-spacing: -.3px;
+
 }
 
 .work-wrapper {
@@ -520,28 +537,6 @@ i {
   padding-top: 20px;
   margin: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer-wrapper {
   background-color: #74E4D6;
@@ -623,4 +618,3 @@ i {
 .interests-picture {
   display: flex;
 }
-
