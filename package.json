@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yhunsicker/profile/issues"
   },
-  "homepage": "https://github.com/yhunsicker/profile#readme"
+  "homepage": "https://github.com/yhunsicker/profile#readme",
+  "devDependencies": {
+    "webpack": "^4.30.0"
+  }
 }
