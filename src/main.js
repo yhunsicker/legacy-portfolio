@@ -1,6 +1,6 @@
 
 var i=0, text;
-  text = " Hi, I'm Yu-Li! "
+  text = " Hi, I'm an Appa! "
 
 function typing() {
   if(i<text.length){
