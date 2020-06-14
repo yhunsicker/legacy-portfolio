@@ -1,101 +1,119 @@
 <!-- <!DOCTYPE html> -->
 <html>
-<head>
-  <title>My Simple Profile</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-</head>
-<body>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device=width, initial-scale=1" />
+      <title>Yu-Li | Developer & Designer</title>
+      <link rel="stylesheet" href="style.css" />
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous"
+      />
+      <link
+        rel="shortcut icon"
+        type="image/png"
+        sizes="96x96"
+        href="images/Ylogo.png"
+      />
+      <link
+        href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans|Karla"
+        rel="stylesheet"
+      />
+      <meta property="og:title" content="Yu-Li Hunsicker" />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:file_url"
+        content="https://yhunsicker.github.io/profile/"
+      />
+      <meta
+        property="og:image"
+        content="https://yhunsicker.github.io/profile/images/cover.jpg"
+      />
+      <meta property="og:description" content="Developer | Designer" />
+      <script src="main.js" async></script>
+      <meta name="description" content="User Experience Designer" />
+    </head>
 
-  <div class="container text-center">
-    <div class="card">
-      <img src="./images/Me.jpg" alt="" class="img-circle" width="250" height="250" id="profile">
-      <h1>Yu-Li Hunsicker</h1>
-      <h2>Programmer</h2>
-      <p>Child Protection Specialist learning to Code</p>
-      <a href="" class="button">Click Me!</a>
+    <!--HomePage -->
+    <body>
+      <div id="landing-page">
+        <div class="nav-container">
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="images/website-logo.jpg"
+                alt="website logo"
+                rel="noopener noreferrer"
+              />
+            </a>
+            <div class="name">Yu-Li Hunsicker | UX/UI Designer</div>
+          </div>
+
+          <div class="navigation">
+            <div class="about">
+              <a class="About" href="about.html" rel="noopener noreferrer"
+                >About</a
+              >
+            </div>
+
+            <div class="portfolio">
+              <a
+                class="Portfolio"
+                href="portfolio.html"
+                rel="noopener noreferrer"
+                >Portfolio</a
+              >
+            </div>
+
+            <div class="resume">
+              <a
+                class="Resume"
+                href="mailto:yhunsicker.gmail.com"
+                target="blank"
+                rel="noopener noreferrer"
+                >Resume</a
+              > 
+            </div>
+          </div>
+        </div>
+
+        <div id="text"></div>
+        <div class="Intro">
+          <p>
+            I produce elegant solutions with a human-centered design approach to
+            help organizations/companies Transcend International Boundaries
+            through accessible and impactful UX/UI Designs .
+          </p>
+        </div>
+      </div>
+
+      <!-- <div class="footer-wrapper">
+    <div class="footer-content">
+      <h2>Let's Share</h2>
+      <p>I'm always inspired to learn & share knowledge</p>
     </div>
+  </div>
 
+  <div class="footer-bottom">
+    <div class="footer-links">
+      <a href="https://github.com/yhunsicker" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/ashortybroad/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/yuli.hunsicker" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/in/yu-li-hunsicker/"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:yhunsicker.gmail.com" class="link" target="blank"><i class="far fa-envelope card-icon email-link"></i></a>
 
-  <div class="card">
-    <ul class="list-in-row">
-      <li>
-        <a href="https://github.com/yhunsicker" target="_blank"><i class="fab fa-github"></a></i>
-        </li>
-        <li>
-        <a href="https://www.pinterest.com/ashortybroad/pins/" target="_blank"><i class="fab fa-pinterest"></a></i>
-        </li>
-        <li>
-        <a href="https://www.facebook.com/yuli.hunsicker" target="_blank"><i class="fab fa-facebook"></a></i>
-        </li>
-      </ul>
+      <div class="footer-copyright">
+        Crafted with <i class="fas fa-heart"></i> by yours truly
+      </div>
     </div>
-
-
-    <div class="card">
-      <h2>These Are A Few Of My Favorite Things</h2>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/Travel.jpg"  alt="Travel" class="images" width="250" height="250">
-            </td>
-            <td>
-              <div class="text-format">
-                <h3>Travel</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni inventore, earum obcaecati! Iusto amet placeat ab temporibus distinctio, harum dignissimos.
-                </p>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/Food.jpg"  alt="Food" class="images" width="250" height="250">
-            </td>
-            <td>
-              <div class="text-format">
-                <h3>Food</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni inventore, earum obcaecati! Iusto amet placeat ab temporibus distinctio, harum dignissimos.
-                </p>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <td>
-              <img src="images/Dory 16.jpg" alt="Dory 17" class="images" width="250" height="250">
-            </td>
-            <td>
-              <div class="text-format">
-                <h3>Dogs</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni inventore, earum obcaecati! Iusto amet placeat ab temporibus distinctio, harum dignissimos.
-                </p>
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="card">
-      <h2>About This Page</h2>
-      <p><footer>This simple page was built during the <a href="https://www.lewagon.com/" target="_blank" >Full Stack program @ Le Wagon</a>, Amsterdam 2019</footer></p>
-
-
-      <ul class="list-inline">
-      <li><a href="" target="_blank"><i class="fas fa-heart"></i></li></a>
-      <li><a href="" target="_blank"><i class="fas fa-star"></i></li></a>
-      <li><a href="" target="_blank"><i class="fas fa-share"></i></li></a>
-      </ul>
-    </div>
-
   </div>
 
 </body>
 
+</html> -->
+    </body>
+  </html>
 </html>
